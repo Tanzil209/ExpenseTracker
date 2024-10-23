@@ -1,9 +1,5 @@
-Here’s a sample README for your Expense Tracker project. You can customize it further to fit your specific implementation and features.
-
----
-
 Expense Tracker
-
+---
 An easy-to-use web application for tracking your expenses and managing your budget effectively. Built using Node.js, Express, and MongoDB for the backend, and React for the frontend.
 
 ## Table of Contents
