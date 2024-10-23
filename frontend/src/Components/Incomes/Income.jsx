@@ -16,9 +16,9 @@ const Income = () => {
     <IncomeStyle>
       <Inner>
         <h1>Incomes</h1>
-        <h2 className="total-income">
+        <h3 className="total-income">
           Total Income : <span>₹ {totalIncome()}</span>
-        </h2>
+        </h3>
         <div className="income-content">
           <div className="form-container">
             <Form />
@@ -67,7 +67,7 @@ const IncomeStyle = styled.div`
     font-size: 2rem;
     gap: 0.5rem;
     span {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 800;
       color: var(--color-green);
     }

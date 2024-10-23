@@ -16,9 +16,9 @@ const Expenses = () => {
     <ExpenseStyle>
       <Inner>
         <h1>Expenses</h1>
-        <h2 className="total-income">
+        <h3 className="total-income">
           Total Expense : <span>₹ {totalExpense ()}</span>
-        </h2>
+        </h3>
         <div className="income-content">
           <div className="form-container">
             <ExpenseForm/>
@@ -67,7 +67,7 @@ const ExpenseStyle = styled.div`
     font-size: 2rem;
     gap: 0.5rem;
     span {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 800;
       color: var(--color-green);
     }
