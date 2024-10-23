@@ -24,29 +24,28 @@ const Dashboard = () => {
   return (
     <DashboardStyled>
       <Inner>
-        <h1>All Transactions</h1>
+        <h2>All Transactions</h2>
         <div className="stats-con">
           <div className="chart-con">
             <Chart />
             <div className="amount-con">
               <div className="income">
-                <h2>Total Income</h2>
+                <h3>Total Income</h3>
                 <p>
                 ₹{totalIncome()}
 
                 </p>
               </div>
               <div className="expense">
-                <h2>Total Expense</h2>
+                <h3>Total Expense</h3>
                 <p>
                 ₹{totalExpense()}
                 </p>
               </div>
               <div className="balance">
-                <h2>Total Balance</h2>
+                <h3>Total Balance</h3>
                 <p>
                 ₹{totalBalance()}
-
                 </p>
               </div>
             </div>
@@ -81,6 +80,7 @@ const DashboardStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
+    padding:1rem;
     .chart-con {
       grid-column: 1 / 4;
       height: 400px;
@@ -102,7 +102,7 @@ const DashboardStyled = styled.div`
           border-radius: 20px;
           padding: 1rem;
           p {
-            font-size: 3.5rem;
+            font-size: 2rem;
             font-weight: 700;
           }
         }
@@ -116,7 +116,7 @@ const DashboardStyled = styled.div`
           p {
             color: var(--color-green);
             opacity: 0.6;
-            font-size: 4.5rem;
+            font-size: 2.5rem;
           }
         }
       }
@@ -133,7 +133,7 @@ const DashboardStyled = styled.div`
       .salary-title {
         font-size: 1.2rem;
         span {
-          font-size: 1.8rem;
+          font-size: 1.2rem;
         }
       }
       .salary-item {
@@ -147,7 +147,7 @@ const DashboardStyled = styled.div`
         align-items: center;
         p {
           font-weight: 600;
-          font-size: 1.6rem;
+          font-size: 1rem;
         }
       }
     }

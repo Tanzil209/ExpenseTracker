@@ -1,0 +1,70 @@
+{
+  "hash": "812fcc25",
+  "configHash": "61f4b1bd",
+  "lockfileHash": "c70a7776",
+  "browserHash": "91f1fc98",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "57fb2943",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "e58e4ad1",
+      "needsInterop": true
+    },
+    "styled-components": {
+      "src": "../../node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "file": "styled-components.js",
+      "fileHash": "fcdf8ff9",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "e19a8ddf",
+      "needsInterop": false
+    },
+    "chart.js": {
+      "src": "../../node_modules/chart.js/dist/chart.js",
+      "file": "chart__js.js",
+      "fileHash": "2b76f6de",
+      "needsInterop": false
+    },
+    "react-chartjs-2": {
+      "src": "../../node_modules/react-chartjs-2/dist/index.js",
+      "file": "react-chartjs-2.js",
+      "fileHash": "43e6456d",
+      "needsInterop": false
+    },
+    "react-datepicker": {
+      "src": "../../node_modules/react-datepicker/dist/es/index.js",
+      "file": "react-datepicker.js",
+      "fileHash": "90304f81",
+      "needsInterop": false
+    },
+    "moment": {
+      "src": "../../node_modules/moment/dist/moment.js",
+      "file": "moment.js",
+      "fileHash": "dd93e37e",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HAPL3QL5": {
+      "file": "chunk-HAPL3QL5.js"
+    },
+    "chunk-YEGEUSQR": {
+      "file": "chunk-YEGEUSQR.js"
+    },
+    "chunk-7JZAKNLV": {
+      "file": "chunk-7JZAKNLV.js"
+    },
+    "chunk-2TUXWMP5": {
+      "file": "chunk-2TUXWMP5.js"
+    }
+  }
+}
